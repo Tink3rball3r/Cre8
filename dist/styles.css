@@ -33,40 +33,29 @@ img {
 	align-items: center;
 }
 
-header {
-	display: none;
-	background-color: #43005d;
-	overflow: hidden;
-}
-
-header .logo {
-	font-size: 2rem;
-	color: #fff;
-}
-
 .sec-1 {
 	padding: 2rem 0 5rem 0;
 	background: rgb(191, 74, 76);
 	background: linear-gradient(156deg, rgba(191, 74, 76, 1) 10%, rgba(196, 0, 102, 1) 38%, rgba(86, 0, 101, 1) 59%);
 }
 
-.left {
-	align-self: flex-start;
+.sec-1__left {
+	margin: 0 0 2.5rem 0;
 }
 
-.left h1 {
+.sec-1__left h1 {
 	font-weight: 700;
 	font-size: 3rem;
-	margin: 1rem 0 0 0;
+	margin: 1rem 0;
 }
 
-.left p {
+.sec-1__left p {
 	font-weight: 300;
 	font-size: 2rem;
 }
 
-.right img {
-	width: 80%;
+.sec-1__right img {
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -80,15 +69,33 @@ header .logo {
 }
 
 .lady {
-	margin: -4rem 0 0 0;
+	margin: -2rem 0 0 0;
+	padding: 0 0 2rem 0;
 }
 
 .dots {
-	display: none;
 	position: absolute;
-	width: 50%;
-	bottom: -10rem;
-	right: -10rem;
+	width: 40%;
+	right: -8%;
+	bottom: -10%;
+}
+
+.num {
+	font-size: 4rem;
+	font-weight: 300;
+	padding: 0 0 1rem 0;
+}
+
+.red-heading {
+	font-size: 2.5rem;
+	font-weight: 400;
+	color: #f70647;
+	padding: 0 0 1rem 0;
+}
+
+.text-container p {
+	font-size: 1.5rem;
+	font-weight: 300;
 }
 
 /* 
