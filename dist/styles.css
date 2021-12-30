@@ -81,7 +81,7 @@ img {
 }
 
 .hero__image {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -156,6 +156,8 @@ img {
 	z-index: 101;
 }
 
+/* statistics section */
+
 .stats {
 	margin: 5rem 0 0 0;
 }
@@ -184,6 +186,144 @@ img {
 	font-size: 2rem;
 	color: var(--red);
 	margin: 0 0 1rem 0;
+}
+
+/* contact section */
+.contact {
+	background-image: url(/dist/images/bg-mobile.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding: 2rem 0;
+}
+
+.contact-text {
+	margin: 2rem 0;
+}
+
+.contact-text h2,
+.contact-text p {
+	text-align: center;
+}
+
+.contact-text h2 {
+	font-weight: 400;
+	font-size: 3rem;
+	color: var(--red);
+	text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.59);
+}
+
+.contact-text p {
+	font-size: 1.5rem;
+}
+
+form input,
+form textarea {
+	display: block;
+	background: none;
+	border: 0.18rem solid var(--red);
+	outline: none;
+	font-size: 1.2rem;
+	font-family: 'Oswald', sans-serif;
+	color: var(--white);
+	margin: 0 0 1rem 0;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+	width: 100%;
+}
+
+form button {
+	border: none;
+	background: var(--red);
+	font-size: 1rem;
+	font-weight: 400;
+	/* letter-spacing: 0.1em; */
+	color: var(--white);
+	font-family: 'Oswald', sans-serif;
+	padding: 0.5rem 0;
+	width: 40%;
+}
+
+/*  section three */
+.grid {
+	display: grid;
+	grid-template-columns: 1rf;
+	grid-template-rows: repeat(4, 1fr);
+}
+.grid-1 {
+	background-image: url(/dist/images/bg-cell-mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.grid-2 {
+	padding: 2rem 0 4rem 0;
+	background: var(--purple);
+	text-align: left;
+}
+
+.grid-2 h2 {
+	font-size: 4rem;
+}
+.grid-2 h3 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: var(--red);
+}
+
+.grid-2 p {
+	font-size: 1.2rem;
+	padding: 0 0 3rem 0;
+}
+
+.grid-3 {
+	background-image: url(/dist/images/bg-cell3\ -mobile.jpg);
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom center;
+	padding: 3rem 0 1rem 0;
+}
+
+.grid-3 h2 {
+	font-size: 3rem;
+	font-weight: 500;
+	color: var(--red);
+}
+
+.grid-3 p {
+	color: var(--black);
+	font-size: 1.2rem;
+}
+
+.grid-4 {
+	background-image: url(/dist/images/bg-cell2\ -mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	background: rgb(86, 0, 101);
+	background: linear-gradient(320deg, rgba(86, 0, 101, 1) 62%, rgba(196, 0, 102, 1) 81%);
+	padding: 0 0 4rem 0;
+}
+
+footer h2 {
+	font-size: 3rem;
+	font-weight: 500;
+	color: var(--red);
+	text-align: center;
+	padding: 3rem 0 2rem 0;
+}
+
+footer p {
+	font-size: 1.2rem;
+	padding: 0 0 2rem 0;
+}
+
+footer img {
+	width: 50%;
+	margin: 0 auto;
 }
 
 /* 
